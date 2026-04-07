@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 народных рецептов здоровья — с точными пропорциями</title>
+<meta name="description" content="Книга с проверенными рецептами народной медицины. Точные дозировки, противопоказания, уровни безопасности. От канала «Интерес к здоровью».">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<!-- Яндекс.Метрика -->
+<script type="text/javascript">
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();
+for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+// ▼▼▼ ЗАМЕНИ 00000000 НА СВОЙ НОМЕР СЧЁТЧИКА ▼▼▼
+ym(00000000, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/00000000" style="position:absolute;left:-9999px;" alt=""/></div></noscript>
+<!-- /Яндекс.Метрика -->
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --forest: #1a3a2a;
+  --forest-light: #234a37;
+  --sage: #8ba888;
+  --sage-pale: #c5d5bf;
+  --amber: #d4a44c;
+  --amber-light: #e8c47a;
+  --cream: #f5f0e8;
+  --cream-dark: #ede5d8;
+  --linen: #faf8f4;
+  --brown: #5c3d2e;
+  --brown-light: #7a5a4a;
+  --text: #2c2c2c;
+  --text-light: #5a5a5a;
+  --white: #ffffff;
+  --red-soft: #c0392b;
+}
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  color: var(--text);
+  background: var(--linen);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; line-height: 1.25; }
+
+img { max-width: 100%; display: block; }
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(165deg, var(--forest) 0%, var(--forest-light) 40%, #2a5a3f 100%);
+  color: var(--white);
+  padding: 3rem 1.25rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 80%;
+  height: 200%;
+  background: radial-gradient(ellipse, rgba(212,164,76,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--amber), var(--amber-light), var(--amber));
+}
+
+.hero-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 100px;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(4px);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--amber-light);
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.hero-price-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.price-big {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--amber-light);
+}
+
+.price-meta {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.5;
+}
+
+.btn-main {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--amber) 0%, #c49a40 100%);
+  color: var(--forest);
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 1.1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px rgba(212,164,76,0.35);
+}
+
+.btn-main:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(212,164,76,0.45); }
+.btn-main:active { transform: translateY(0); }
+
+.hero-guarantee {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.55);
+  margin-top: 0.75rem;
+}
+
+/* ===== PAIN POINTS ===== */
+.pain {
+  background: var(--cream);
+  padding: 3rem 1.25rem;
+}
+
+.pain-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.pain h2 {
+  font-size: 1.6rem;
+  color: var(--forest);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.pain-item {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  align-items: flex-start;
+}
+
+.pain-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background: var(--cream-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.pain-text {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.55;
+}
+
+.pain-text strong { color: var(--text); font-weight: 600; }
+
+.pain-answer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--white);
+  border-radius: 12px;
+  border-left: 4px solid var(--amber);
+}
+
+.pain-answer p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  color: var(--forest);
+  font-style: italic;
+}
+
+/* ===== STATS ===== */
+.stats {
+  background: var(--forest);
+  padding: 2rem 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.stats { max-width: 100%; }
+
+.stat {
+  text-align: center;
+  padding: 0.75rem 0.25rem;
+}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--amber-light);
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.15rem;
+}
+
+/* ===== CHAPTERS ===== */
+.chapters {
+  padding: 3rem 1.25rem;
+  background: var(--linen);
+}
+
+.chapters-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.chapters h2 {
+  font-size: 1.6rem;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.chapters-sub {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.chapter-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+
+.chapter-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+
+.chapter-num {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  background: var(--cream);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--forest);
+}
+
+.chapter-body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--forest);
+  margin-bottom: 0.25rem;
+}
+
+.chapter-count {
+  font-size: 0.78rem;
+  color: var(--amber);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.35rem;
+}
+
+.chapter-desc {
+  font-size: 0.88rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+/* ===== RECIPE PREVIEW ===== */
+.preview {
+  background: var(--cream);
+  padding: 3rem 1.25rem;
+}
+
+.preview-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.preview h2 {
+  font-size: 1.6rem;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.preview-sub {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-card {
+  background: var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+.recipe-header {
+  background: var(--forest);
+  color: var(--white);
+  padding: 1.25rem 1.5rem;
+}
+
+.recipe-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--amber-light);
+  margin-bottom: 0.35rem;
+}
+
+.recipe-header h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.recipe-body {
+  padding: 1.5rem;
+}
+
+.recipe-section-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sage);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.recipe-section-title:first-child { margin-top: 0; }
+
+.recipe-ing {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.recipe-ing strong {
+  color: var(--forest);
+  font-weight: 600;
+}
+
+.recipe-steps {
+  counter-reset: steps;
+  list-style: none;
+}
+
+.recipe-steps li {
+  counter-increment: steps;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.55;
+  margin-bottom: 0.4rem;
+  padding-left: 1.6rem;
+  position: relative;
+}
+
+.recipe-steps li::before {
+  content: counter(steps);
+  position: absolute;
+  left: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--amber);
+}
+
+.recipe-apply {
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.recipe-apply strong { color: var(--forest); }
+
+.recipe-safety {
+  display: inline-block;
+  background: var(--sage-pale);
+  color: var(--forest);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+}
+
+.recipe-blur {
+  position: relative;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.recipe-blur-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--forest);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-blur-note {
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+
+/* ===== EACH RECIPE ===== */
+.each {
+  padding: 3rem 1.25rem;
+  background: var(--linen);
+}
+
+.each-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.each h2 {
+  font-size: 1.5rem;
+  color: var(--forest);
+  margin-bottom: 1.5rem;
+}
+
+.each-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.each-item {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.each-icon {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.each-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--forest);
+  margin-bottom: 0.25rem;
+}
+
+.each-desc {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  line-height: 1.45;
+}
+
+/* ===== BONUS ===== */
+.bonus {
+  background: linear-gradient(135deg, var(--forest) 0%, var(--forest-light) 100%);
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.bonus-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.bonus h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.bonus p {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.bonus-highlight {
+  display: inline-block;
+  background: rgba(212,164,76,0.15);
+  border: 1px solid rgba(212,164,76,0.3);
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  margin-top: 1rem;
+  color: var(--amber-light);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* ===== FAQ ===== */
+.faq {
+  padding: 3rem 1.25rem;
+  background: var(--cream);
+}
+
+.faq-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  font-size: 1.5rem;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  background: var(--white);
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.faq-q {
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--forest);
+  user-select: none;
+}
+
+.faq-q::after {
+  content: '+';
+  font-size: 1.3rem;
+  color: var(--amber);
+  font-weight: 300;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  margin-left: 0.75rem;
+}
+
+.faq-item.open .faq-q::after {
+  transform: rotate(45deg);
+}
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-a-inner {
+  padding: 0 1.25rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* ===== FINAL CTA ===== */
+.final-cta {
+  padding: 3rem 1.25rem;
+  background: var(--linen);
+  text-align: center;
+}
+
+.final-cta-inner {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.final-cta h2 {
+  font-size: 1.6rem;
+  color: var(--forest);
+  margin-bottom: 0.75rem;
+}
+
+.final-cta p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.final-cta .price-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.final-cta .price-big {
+  color: var(--forest);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: var(--forest);
+  color: rgba(255,255,255,0.5);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.footer a { color: var(--sage-pale); text-decoration: none; }
+
+/* ===== MODAL ===== */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  align-items: flex-end;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.modal-overlay.active { display: flex; }
+
+.modal {
+  background: var(--white);
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.modal-close {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.modal-close button {
+  background: var(--cream);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal h3 {
+  font-size: 1.35rem;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.modal-step {
+  display: flex;
+  gap: 0.85rem;
+  margin-bottom: 1.15rem;
+  align-items: flex-start;
+}
+
+.modal-step-num {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  background: var(--forest);
+  color: var(--amber-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.modal-step-body h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.modal-step-body p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+.phone-block {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  margin: 1.25rem 0;
+}
+
+.phone-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--forest);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.phone-name {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  margin-bottom: 0.6rem;
+}
+
+.btn-copy {
+  background: var(--forest);
+  color: var(--white);
+  border: none;
+  padding: 0.55rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-family: 'Source Serif 4', serif;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-copy:hover { background: var(--forest-light); }
+
+.modal-divider {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-light);
+  margin: 1rem 0;
+  position: relative;
+}
+
+.modal-divider::before, .modal-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background: var(--cream-dark);
+}
+
+.modal-divider::before { left: 0; }
+.modal-divider::after { right: 0; }
+
+.modal-contacts {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.modal-contact {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 0.7rem;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.modal-contact:hover { background: var(--cream-dark); }
+
+.modal-note {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+/* ===== STICKY MOBILE CTA ===== */
+.sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  padding: 0.75rem 1rem;
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.1);
+  z-index: 100;
+  border-top: 1px solid var(--cream-dark);
+}
+
+.sticky-cta-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.sticky-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--forest);
+  white-space: nowrap;
+}
+
+.sticky-btn {
+  flex: 1;
+  background: linear-gradient(135deg, var(--amber) 0%, #c49a40 100%);
+  color: var(--forest);
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 640px) {
+  .hero { padding: 4rem 2rem 3rem; }
+  .hero h1 { font-size: 2.6rem; }
+  .price-big { font-size: 3.2rem; }
+  .stats { border-radius: 12px; max-width: 640px; margin: -1.5rem auto 0; position: relative; z-index: 2; }
+  .stat-num { font-size: 2rem; }
+  .modal { border-radius: 20px; margin-bottom: 2rem; }
+}
+
+/* bottom padding for sticky CTA */
+body.has-sticky { padding-bottom: 72px; }
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Канал «Интерес к здоровью»</div>
+    <h1>100 народных рецептов <em>с точными пропорциями</em></h1>
+    <p class="hero-sub">Не «щепотка на глаз» и не «бабушка так делала». Каждый рецепт — в граммах и миллилитрах, с противопоказаниями и уровнем безопасности. Книга, которую ждали подписчики три года.</p>
+    <div class="hero-price-row">
+      <span class="price-big">299 ₽</span>
+      <span class="price-meta">PDF-книга, 116 страниц<br>Приходит сразу после оплаты</span>
+    </div>
+    <button class="btn-main" onclick="openModal()">Получить книгу →</button>
+    <p class="hero-guarantee">Оплата по СБП · Книга остаётся навсегда</p>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<div class="stats">
+  <div class="stat">
+    <span class="stat-num">100+</span>
+    <span class="stat-label">рецептов</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">6</span>
+    <span class="stat-label">разделов</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">30</span>
+    <span class="stat-label">трав в справочнике</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">3 года</span>
+    <span class="stat-label">проверки</span>
+  </div>
+</div>
+
+<!-- ===== PAIN POINTS ===== -->
+<section class="pain">
+  <div class="pain-inner">
+    <h2>Знакомо?</h2>
+    <div class="pain-item">
+      <div class="pain-icon">😕</div>
+      <p class="pain-text">Нашли рецепт в интернете, а там <strong>«добавьте немного» и «на глаз»</strong> — непонятно, сколько именно класть</p>
+    </div>
+    <div class="pain-item">
+      <div class="pain-icon">⚠️</div>
+      <p class="pain-text">Начали пить отвар, а потом узнали, что <strong>он не сочетается с вашими лекарствами</strong> — и нигде об этом не написали</p>
+    </div>
+    <div class="pain-item">
+      <div class="pain-icon">📱</div>
+      <p class="pain-text">Сохраняли рецепты в закладках, но <strong>всё разбросано по разным сайтам</strong> — когда нужно, не найти</p>
+    </div>
+    <div class="pain-item">
+      <div class="pain-icon">🤷</div>
+      <p class="pain-text">Попробовали средство — <strong>не помогло</strong>. Не потому что не работает, а потому что дозировка была неправильная</p>
+    </div>
+    <div class="pain-answer">
+      <p>Эта книга решает все четыре проблемы. Один PDF — все рецепты, все граммы, все предупреждения.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHAPTERS ===== -->
+<section class="chapters">
+  <div class="chapters-inner">
+    <h2>Что внутри</h2>
+    <p class="chapters-sub">6 разделов — от масок для лица до давления и сосудов</p>
+
+    <div class="chapter-card">
+      <div class="chapter-num">I</div>
+      <div class="chapter-body">
+        <div class="chapter-count">23 рецепта</div>
+        <h3>Кожа и молодость</h3>
+        <p class="chapter-desc">Лифтинг-маски из крахмала, масляные коктейли, тоники, скрабы. Всё из аптеки и обычного магазина.</p>
+      </div>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-num">II</div>
+      <div class="chapter-body">
+        <div class="chapter-count">17 рецептов</div>
+        <h3>Суставы</h3>
+        <p class="chapter-desc">Компрессы, растирки, ванны при подагре, артрите, остеохондрозе. Настойка сабельника, желатиновый напиток, мазь из пчелиного воска.</p>
+      </div>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-num">III</div>
+      <div class="chapter-body">
+        <div class="chapter-count">18 рецептов</div>
+        <h3>Желудок и ЖКТ</h3>
+        <p class="chapter-desc">Льняной кисель, овсяный кисель, укропная вода, имбирный чай, клюквенный морс при цистите.</p>
+      </div>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-num">IV</div>
+      <div class="chapter-body">
+        <div class="chapter-count">17 рецептов</div>
+        <h3>Давление и сосуды</h3>
+        <p class="chapter-desc">Настои шиповника и боярышника, чесночно-лимонная смесь, калиновый морс, точечный массаж Хэ-Гу.</p>
+      </div>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-num">V</div>
+      <div class="chapter-body">
+        <div class="chapter-count">25 рецептов</div>
+        <h3>Весеннее здоровье</h3>
+        <p class="chapter-desc">Смузи, витаминные пасты, смесь Амосова, берёзовый квас, крапивные салаты, средства от аллергии.</p>
+      </div>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-num">VI</div>
+      <div class="chapter-body">
+        <div class="chapter-count">30 трав</div>
+        <h3>Справочник дозировок</h3>
+        <p class="chapter-desc">Таблица: каждая трава — точная навеска на стакан, способ заваривания, курс, противопоказания. Плюс 5 золотых правил фитотерапии.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RECIPE PREVIEW ===== -->
+<section class="preview">
+  <div class="preview-inner">
+    <h2>Как выглядит рецепт</h2>
+    <p class="preview-sub">Вот один из ста — посмотрите формат</p>
+
+    <div class="recipe-card">
+      <div class="recipe-header">
+        <div class="recipe-label">Рецепт № 76 · Весеннее здоровье</div>
+        <h3>Тёплый лимонно-имбирный напиток</h3>
+      </div>
+      <div class="recipe-body">
+        <div class="recipe-section-title">Ингредиенты</div>
+        <p class="recipe-ing">
+          Вода тёплая (40–50°C) — <strong>200 мл</strong><br>
+          Лимон свежий — <strong>2–3 дольки</strong> (или сок ¼ лимона)<br>
+          Корень имбиря — <strong>1 см</strong> (3–5 г), натёртый<br>
+          Мёд — <strong>1 ч.л.</strong> (5 г, по желанию)
+        </p>
+        <div class="recipe-section-title">Инструкция</div>
+        <ol class="recipe-steps">
+          <li>Натрите свежий корень имбиря на мелкой тёрке.</li>
+          <li>Залейте тёплой водой (не кипятком — для сохранения витамина C).</li>
+          <li>Добавьте лимонный сок или дольки лимона, перемешайте.</li>
+          <li>По желанию добавьте мёд (только в тёплую воду).</li>
+          <li>Пейте утром натощак, за 20–30 минут до завтрака.</li>
+        </ol>
+        <div class="recipe-apply">
+          <strong>Как применять:</strong> Каждое утро, 7–14 дней, затем 2–3 раза в неделю. Пить мелкими глотками.
+        </div>
+        <div class="recipe-safety">⚡ Безопасно с оговорками</div>
+        <div style="margin-top:0.5rem; font-size:0.82rem; color:var(--text-light);">
+          Противопоказания: гастрит с повышенной кислотностью, язва, аллергия на цитрусовые, желчнокаменная болезнь, приём антикоагулянтов.
+        </div>
+      </div>
+    </div>
+
+    <div class="recipe-blur">
+      <p class="recipe-blur-text">Ещё 99 таких же подробных рецептов — в книге</p>
+      <p class="recipe-blur-note">Каждый с ингредиентами в граммах, пошаговой инструкцией, курсом и противопоказаниями</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EACH RECIPE HAS ===== -->
+<section class="each">
+  <div class="each-inner">
+    <h2>Каждый рецепт содержит</h2>
+    <div class="each-grid">
+      <div class="each-item">
+        <div class="each-icon">⚖️</div>
+        <div class="each-title">Точные пропорции</div>
+        <div class="each-desc">В граммах и миллилитрах. Никаких «на глаз».</div>
+      </div>
+      <div class="each-item">
+        <div class="each-icon">📋</div>
+        <div class="each-title">5 шагов</div>
+        <div class="each-desc">Пошаговая инструкция, понятная без опыта.</div>
+      </div>
+      <div class="each-item">
+        <div class="each-icon">🛡️</div>
+        <div class="each-title">Противопоказания</div>
+        <div class="each-desc">Когда нельзя, с чем не сочетается.</div>
+      </div>
+      <div class="each-item">
+        <div class="each-icon">🔒</div>
+        <div class="each-title">Уровень безопасности</div>
+        <div class="each-desc">Цветная метка: безопасно, с оговорками, нужен врач.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BONUS ===== -->
+<section class="bonus">
+  <div class="bonus-inner">
+    <h2>Бонус: справочник 30 трав</h2>
+    <p>В конце книги — таблица дозировок самых популярных трав.</p>
+    <p>Ромашка, шиповник, боярышник, валериана, крапива, пустырник, мелисса и ещё 23 растения.</p>
+    <div class="bonus-highlight">Навеска на стакан · Способ · Курс · Противопоказания</div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq">
+  <div class="faq-inner">
+    <h2>Частые вопросы</h2>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">В каком формате книга?</div>
+      <div class="faq-a"><div class="faq-a-inner">PDF-файл, 116 страниц. Открывается на любом телефоне, планшете или компьютере. Можно распечатать.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Как быстро получу книгу?</div>
+      <div class="faq-a"><div class="faq-a-inner">Сразу после оплаты. Переведёте по СБП — напишите в VK или на почту, и книга придёт в течение нескольких минут.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Это замена лечению у врача?</div>
+      <div class="faq-a"><div class="faq-a-inner">Нет. Книга — информационный сборник народных рецептов. У каждого рецепта указаны противопоказания. При хронических заболеваниях обязательна консультация врача. Народные средства — дополнение, не замена.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">А нельзя найти эти рецепты бесплатно?</div>
+      <div class="faq-a"><div class="faq-a-inner">Можно. Но в интернете они без точных дозировок, без противопоказаний, разбросаны по сотням сайтов и перемешаны с рекламой. Здесь — всё в одном месте, проверено за три года, с точными граммами и мерами безопасности. Это экономит часы поиска.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Могу ли я вернуть деньги?</div>
+      <div class="faq-a"><div class="faq-a-inner">Если книга не оправдает ожиданий — напишите, вернём деньги без вопросов. Нам важнее доверие, чем 299 рублей.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="final-cta">
+  <div class="final-cta-inner">
+    <h2>100 проверенных рецептов.<br>Один PDF. Навсегда.</h2>
+    <p>Все рецепты с канала «Интерес к здоровью» — собранные, оформленные, с точными пропорциями. Больше не нужно искать по закладкам.</p>
+    <div class="price-row">
+      <span class="price-big">299 ₽</span>
+      <span class="price-meta" style="text-align:left; color:var(--text-light); font-size:0.85rem;">PDF · 116 страниц<br>Мгновенная отправка</span>
+    </div>
+    <button class="btn-main" onclick="openModal()">Получить книгу за 299 ₽ →</button>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>«Интерес к здоровью» · Книга носит информационный характер и не является медицинским руководством</p>
+  <p style="margin-top:0.5rem;"><a href="https://vk.com/id45351387">VK</a> · <a href="mailto:Ser352476@mail.ru">Ser352476@mail.ru</a></p>
+</footer>
+
+<!-- ===== STICKY MOBILE CTA ===== -->
+<div class="sticky-cta" id="stickyCta">
+  <div class="sticky-cta-inner">
+    <span class="sticky-price">299 ₽</span>
+    <button class="sticky-btn" onclick="openModal()">Получить книгу →</button>
+  </div>
+</div>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeOnOverlay(event)">
+  <div class="modal">
+    <div class="modal-close"><button onclick="closeModal()">✕</button></div>
+    <h3>Как получить книгу</h3>
+
+    <div class="modal-step">
+      <div class="modal-step-num">1</div>
+      <div class="modal-step-body">
+        <h4>Переведите 299 ₽ по СБП</h4>
+        <p>Откройте приложение банка → Переводы → По номеру телефона → СБП</p>
+      </div>
+    </div>
+
+    <div class="phone-block">
+      <div class="phone-number">+7 960 357-41-65</div>
+      <div class="phone-name">Т-Банк · Сергей</div>
+      <button class="btn-copy" id="btnCopy" onclick="copyPhone()">Скопировать номер</button>
+    </div>
+
+    <div class="modal-step">
+      <div class="modal-step-num">2</div>
+      <div class="modal-step-body">
+        <h4>Напишите «Книга» в VK или на почту</h4>
+        <p>Чтобы мы знали, куда отправить файл</p>
+      </div>
+    </div>
+
+    <div class="modal-contacts">
+      <a href="https://vk.com/id45351387" class="modal-contact" target="_blank" onclick="if(typeof ym==='function')ym(00000000,'reachGoal','click_vk')">💬 Написать в VK</a>
+      <a href="mailto:Ser352476@mail.ru?subject=Книга рецептов" class="modal-contact" onclick="if(typeof ym==='function')ym(00000000,'reachGoal','click_email')">✉️ Email</a>
+    </div>
+
+    <div class="modal-step">
+      <div class="modal-step-num">3</div>
+      <div class="modal-step-body">
+        <h4>Получите PDF</h4>
+        <p>Книга придёт вам в ответном сообщении — обычно в течение нескольких минут</p>
+      </div>
+    </div>
+
+    <div class="modal-note">Книга остаётся у вас навсегда. Если что-то не так — напишите, разберёмся.</div>
+  </div>
+</div>
+
+<script>
+// Modal
+function openModal() {
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+  // Цель Метрики: нажал «Купить»
+  if (typeof ym === 'function') ym(00000000, 'reachGoal', 'click_buy');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function closeOnOverlay(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+// Copy phone
+function copyPhone() {
+  const btn = document.getElementById('btnCopy');
+  navigator.clipboard.writeText('+79603574165').then(() => {
+    btn.textContent = '✓ Скопировано!';
+    btn.style.background = '#2a5a3f';
+    // Цель Метрики: скопировал номер (почти купил!)
+    if (typeof ym === 'function') ym(00000000, 'reachGoal', 'copy_phone');
+    setTimeout(() => {
+      btn.textContent = 'Скопировать номер';
+      btn.style.background = '';
+    }, 2500);
+  }).catch(() => {
+    // Fallback for older browsers
+    const ta = document.createElement('textarea');
+    ta.value = '+79603574165';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    btn.textContent = '✓ Скопировано!';
+    setTimeout(() => { btn.textContent = 'Скопировать номер'; }, 2500);
+  });
+}
+
+// FAQ toggle
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const answer = item.querySelector('.faq-a');
+  const isOpen = item.classList.contains('open');
+
+  // Close all
+  document.querySelectorAll('.faq-item.open').forEach(i => {
+    i.classList.remove('open');
+    i.querySelector('.faq-a').style.maxHeight = '0';
+  });
+
+  if (!isOpen) {
+    item.classList.add('open');
+    answer.style.maxHeight = answer.scrollHeight + 'px';
+  }
+}
+
+// Sticky CTA on mobile
+const stickyCta = document.getElementById('stickyCta');
+let heroBottom = 0;
+
+function updateStickyVisibility() {
+  if (window.innerWidth > 640) {
+    stickyCta.style.display = 'none';
+    document.body.classList.remove('has-sticky');
+    return;
+  }
+
+  const heroSection = document.querySelector('.hero');
+  heroBottom = heroSection.getBoundingClientRect().bottom;
+
+  if (heroBottom < -100) {
+    stickyCta.style.display = 'block';
+    document.body.classList.add('has-sticky');
+  } else {
+    stickyCta.style.display = 'none';
+    document.body.classList.remove('has-sticky');
+  }
+}
+
+window.addEventListener('scroll', updateStickyVisibility, { passive: true });
+window.addEventListener('resize', updateStickyVisibility);
+updateStickyVisibility();
+</script>
+
+</body>
+</html>
