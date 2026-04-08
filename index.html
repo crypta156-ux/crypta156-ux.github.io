@@ -7,9 +7,12 @@
 <meta name="description" content="Книга с проверенными рецептами народной медицины. Точные дозировки, противопоказания, уровни безопасности. От канала «Интерес к здоровью».">
 <meta property="og:title" content="100 народных рецептов с точными пропорциями">
 <meta property="og:description" content="PDF-книга: 100 рецептов в граммах, с противопоказаниями и уровнем безопасности. 299 ₽, приходит сразу после оплаты.">
-<meta property="og:type" content="product">
+<meta property="og:type" content="website">
 <meta property="og:url" content="https://crypta156-ux.github.io/">
 <meta property="og:image" content="https://crypta156-ux.github.io/book-preview.png">
+<meta property="og:locale" content="ru_RU">
+<meta name="theme-color" content="#1a3a2a">
+<link rel="canonical" href="https://crypta156-ux.github.io/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 <!-- Яндекс.Метрика -->
@@ -252,13 +255,11 @@ img { max-width: 100%; display: block; }
   background: var(--forest);
   padding: 2rem 1.25rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
-  max-width: 640px;
+  max-width: 100%;
   margin: 0 auto;
 }
-
-.stats { max-width: 100%; }
 
 .stat {
   text-align: center;
@@ -274,7 +275,7 @@ img { max-width: 100%; display: block; }
 }
 
 .stat-label {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: rgba(255,255,255,0.65);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -396,7 +397,7 @@ img { max-width: 100%; display: block; }
 }
 
 .recipe-label {
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--amber-light);
@@ -699,7 +700,7 @@ img { max-width: 100%; display: block; }
   color: rgba(255,255,255,0.5);
   padding: 1.5rem 1.25rem;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1.7;
 }
 
@@ -944,6 +945,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.95rem;
   font-weight: 600;
   padding: 0.75rem 1rem;
+  min-height: 48px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -954,7 +956,7 @@ img { max-width: 100%; display: block; }
   .hero { padding: 4rem 2rem 3rem; }
   .hero h1 { font-size: 2.6rem; }
   .price-big { font-size: 3.2rem; }
-  .stats { border-radius: 12px; max-width: 640px; margin: -1.5rem auto 0; position: relative; z-index: 2; }
+  .stats { grid-template-columns: repeat(4, 1fr); border-radius: 12px; max-width: 640px; margin: -1.5rem auto 0; position: relative; z-index: 2; }
   .stat-num { font-size: 2rem; }
   .modal { border-radius: 20px; margin-bottom: 2rem; }
 }
@@ -1137,7 +1139,7 @@ body.has-sticky { padding-bottom: 72px; }
     </div>
 
     <div style="margin-top:1.5rem; border-radius:12px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.1);">
-      <img src="book-preview.png" alt="Страница из книги — рецепт с точными пропорциями, инструкцией и противопоказаниями" style="width:100%; display:block;">
+      <img src="book-preview.png" alt="Страница из книги — рецепт с точными пропорциями, инструкцией и противопоказаниями" style="width:100%; display:block;" loading="lazy" width="874" height="870">
     </div>
     <p style="text-align:center; font-size:0.8rem; color:var(--text-light); margin-top:0.6rem;">Реальная страница из книги — так выглядит каждый рецепт</p>
   </div>
@@ -1230,7 +1232,7 @@ body.has-sticky { padding-bottom: 72px; }
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <p>«Интерес к здоровью» · Книга носит информационный характер и не является медицинским руководством</p>
-  <p style="margin-top:0.5rem;"><a href="https://vk.com/id45351387" target="_blank">VK</a> · <a href="mailto:Ser352476@mail.ru">Ser352476@mail.ru</a></p>
+  <p style="margin-top:0.5rem;"><a href="https://vk.com/id45351387" target="_blank" rel="noopener noreferrer">VK</a> · <a href="mailto:Ser352476@mail.ru?subject=Книга рецептов">Ser352476@mail.ru</a></p>
 </footer>
 
 <!-- ===== STICKY MOBILE CTA ===== -->
@@ -1277,7 +1279,7 @@ body.has-sticky { padding-bottom: 72px; }
     </div>
 
     <div class="modal-contacts">
-      <a href="https://vk.com/id45351387" class="modal-contact" target="_blank" onclick="if(typeof ym==='function')ym(108439760,'reachGoal','click_vk')">💬 Написать в VK</a>
+      <a href="https://vk.com/id45351387" class="modal-contact" target="_blank" rel="noopener noreferrer" onclick="if(typeof ym==='function')ym(108439760,'reachGoal','click_vk')">💬 Написать в VK</a>
       <a href="mailto:Ser352476@mail.ru?subject=Книга рецептов" class="modal-contact" onclick="if(typeof ym==='function')ym(108439760,'reachGoal','click_email')">✉️ Email</a>
     </div>
 
